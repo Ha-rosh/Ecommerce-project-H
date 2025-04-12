@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Checkout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/checkout.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="head">
+      <div>
+        <a href="Ecommerce.html">
+          <img class="h-logo" src="images/h-7040697_1280.png">
+        </a>
+      </div>
+      <div class="checkout-text">
+        Checkout (<span class="items js-items">0</span> items)
+      </div>
+      <div>
+        <img class="checkout-lock-icon" src="images/checkout-lock-icon.png">
+      </div>
+    </header>
+    
+    <!-- Main Content -->
+    <main class="checkout-grid">
+      <div class="container-check js-checkout-summary"></div>
+      <div class="order-summary js-payment-summary"></div>
+    </main>
+
+    <!-- Scripts -->
+    <script type="module" src="scripts/checkout.js"></script>
+  </body>
+</html>
